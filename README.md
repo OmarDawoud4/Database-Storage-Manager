@@ -3,9 +3,13 @@
 This project simulates how records are stored, deleted, and managed efficiently in a page-based system, while also providing a mechanism for handling fragmentation through compaction.
 
 Heap file organization with slotted pages stores records in pages, divided into:
-Slot Directory: Maps records to positions in the data area.
+
+Slot Directory: Maps records to positions in the data area. 
+
 Data Area: Stores the actual records.
+
 The free space offset tracks available space, and compaction reorganizes the page to remove deleted records and optimize space.
+
 ![Screenshot 2024-11-25 143551](https://github.com/user-attachments/assets/5e4372a4-f4b9-4e09-8e66-3cea8e69c391)
 
 ## Features
