@@ -8,7 +8,7 @@ Data Area: Stores the actual records.
 The free space offset tracks available space, and compaction reorganizes the page to remove deleted records and optimize space.
 ![Screenshot 2024-11-25 143551](https://github.com/user-attachments/assets/5e4372a4-f4b9-4e09-8e66-3cea8e69c391)
 
-##Features
+## Features
 Heap File Creation:
 Create a heap file with a fixed number of pages, each acting as a slotted page for record storage.
 
